@@ -1,0 +1,25 @@
+{
+  "name": "lead-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio demo: an AI-assisted lead qualifier with a keyless rule-based scorer, fully static.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "test": "tsx --test lib/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
